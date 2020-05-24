@@ -1,0 +1,19 @@
+#include <DallasTemperature.h>
+
+// Wifi setup
+const char* wifi_ssid = "";
+const char* wifi_password = "";
+
+// MQTT setup
+const char* mqtt_clientid = "";
+
+// // Gherkin
+const char* mqtt_server = "";
+const int mqtt_port = 8883;
+const char* mqtt_username = "";
+const char* mqtt_password = ""; // Used within PSK as well
+
+// Temperature sensors
+DeviceAddress sensor1 = { 0x28, 0x9D, 0xE8, 0x97, 0x3A, 0x19, 0x1, 0xD2 };
+DeviceAddress sensor2 = { 0x28, 0xB4, 0x36, 0x78, 0x3A, 0x19, 0x1, 0xDD };
+DeviceAddress sensor3 = { 0x28, 0xA5, 0x8F, 0x8F, 0x3A, 0x19, 0x1, 0xFA };
